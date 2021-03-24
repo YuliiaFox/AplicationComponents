@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AplicationComponentsPart1</string>
+    <string name="activity1">Activity1</string>
+    <string name="activity2">Activity2</string>
+    <string name="activity3">Activity3</string>
+    <string name="activity4">Activity4</string>
+    <string name="MenuActivity">MenuActivity </string>
+    <string name="ServiceActivity">ServiceActivity </string>
+    <string name="goBack">GO BACK</string>
+    <string name="goForward">GO FORWARD</string>
+    <string name="firstPart">First part</string>
+    <string name="secondPart">Second part</string>
+    <string name="counterAccessed">HOW MANY TIMES COUNTER WAS ACCESSED?</string>
 </resources>
