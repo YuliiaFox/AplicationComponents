@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity(), Navigation {
         setContentView(binder.root)
         supportFragmentManager
             .beginTransaction()
-            .add(R.id.fragmentContainer, ContactsFragment())
+            .replace(R.id.fragmentContainer, ContactsFragment())
             .commit()
     }
 
