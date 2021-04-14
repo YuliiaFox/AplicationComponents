@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Contacts hw2</string>
+    <string name="requestPermisisonReason"> Allow access to you contacts for app to show your contacts.</string>
+    <string name="requestPermissionDenied">Access contact is denied. To show your contacts allow access to contact for the app in app settings</string>
+    <string name="contactsQty">Contacts: %1$d</string>
+    <string name="IsCharging">is charging</string>
+    <string name="NotCharging">isn\'t charging</string>
+    <string name="positiveButton">Ok</string>
+    <string name="negativeButton">Cancel</string>
 </resources>
