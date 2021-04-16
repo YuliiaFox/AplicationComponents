@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Fragment_hw3</string>
+    <string name="change_color_button">change color</string>
+    <string name="switch_fragment_2_and_3">switch fragment 2 and 3</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+    <string name="dialogTitle">Create a list</string>
+    <string name="dialogMessage">Please enter the message</string>
+    <string name="createButton">Create</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="enter_list_here_hint">Enter list here</string>
+    <string name="open_dialog_btn">Open dialog</string>
 </resources>
