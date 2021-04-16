@@ -6,23 +6,23 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.example.fragment_hw3.databinding.FirstFragmentBinding
+import com.example.fragment_hw3.databinding.SecondFragmentBinding
 
-class FirstFragment : Fragment() {
+class SecondFragment : Fragment() {
     private val viewModel: DataViewModel by activityViewModels()
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val binding = FirstFragmentBinding.inflate(layoutInflater)
-        binding.changeColorButton.setOnClickListener {
-            viewModel.loadColors()
-        }
-        binding.switchFragmentsButton.setOnClickListener {
-            viewModel.apply {
-                loadSwitchState()
-            }
+        val binding = SecondFragmentBinding.inflate(layoutInflater)
+        viewModel.getDataForSecondFragment().observe(viewLifecycleOwner, { color ->
+            binding.root.setBackgroundColor(color)
+        })
+        binding.openDialogButton.setOnClickListener {
+            val dialog = CreateListDialog()
+            dialog.show(parentFragmentManager, CreateListDialog.TAG)
         }
         return binding.root
     }
