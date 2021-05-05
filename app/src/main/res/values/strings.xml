@@ -17,4 +17,12 @@
     <string name="_0">0</string>
     <string name="plus">+</string>
     <string name="equals">=</string>
+    <string name="leftBracket">(</string>
+    <string name="rightBracket">)</string>
+    <string name="percent">%</string>
+    <string name="caret">^</string>
+    <string name="history">history</string>
+    <string name="historyFile" translatable="false">calculatorHistory</string>
+    <string name="deleteBtn">delete</string>
+    <string name="history_is_empty">History is empty</string>
 </resources>
